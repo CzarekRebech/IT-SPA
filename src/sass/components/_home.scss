@@ -1,0 +1,77 @@
+@import "../base/variables";
+
+// Carousel
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-carousel-img-one {
+    background-image: url('../images/Carousel-1/Home-carousel-1-low.jpg');
+}
+
+.home-carousel-img-two {
+    background-image: url('../images/Carousel-1/Home-carousel-2-low.jpg');
+}
+
+.home-carousel-img-three {
+    background-image: url('../images/Carousel-1/Home-carousel-3-low.jpg');
+}
+
+
+// Main
+
+.home-boxes {
+    padding: 3em 0;
+}
+
+.home-box i {
+    font-size: 2rem;
+}
+
+.home-box h3 {
+    font-size: 1.5rem;
+}
+
+/* -------------- */
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url('../images/Masaz1-low.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* -------------- */
+
+.stone {
+    background-image: url('../images/Kamienie.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+/* -------------- */
+
+@media (min-width:1200px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .home-carousel-img-one {
+        background-image: url('../images/Carousel-1/Home-carousel-1.jpg');
+    }
+
+    .home-carousel-img-two {
+        background-image: url('../images/Carousel-1/Home-carousel-2.jpg');
+    }
+
+    .home-carousel-img-three {
+        background-image: url('../images/Carousel-1/Home-carousel-3.jpg');
+    }
+}

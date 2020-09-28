@@ -1,85 +1,110 @@
 {
   "users": [],
+  "newsletters": [],
   "rooms": [
     {
       "id": 1,
       "name": "Pokój unarny",
       "beds": 1,
       "guests": 1,
-      "price": 170
+      "price": 170,
+      "images": "rooms-1"
     },
     {
       "id": 2,
       "name": "Pokój binarny",
       "beds": 1,
       "guests": 2,
-      "price": 240
+      "price": 240,
+      "images": "rooms-2"
     },
     {
       "id": 3,
       "name": "Pokój trójkowy",
       "beds": 2,
       "guests": 3,
-      "price": 290
+      "price": 290,
+      "images": "rooms-3"
     },
     {
       "id": 4,
       "name": "Pokój czwórkowy",
       "beds": 2,
       "guests": 4,
-      "price": 340
+      "price": 340,
+      "images": "rooms-4"
     }
   ],
   "treatments": [
     {
       "id": 1,
       "name": "Masaż rozgrzanym monitorem",
-      "area": "back",
+      "tag": "Masaż",
+      "area": "plecy",
       "time": 30,
-      "price": 80
+      "price": 80,
+      "images": "treatment-1",
+      "inCart": 0
     },
     {
       "id": 2,
       "name": "Biczowanie kablem od myszy",
-      "area": "back",
+      "tag": "Biczowanie",
+      "area": "plecy",
       "time": 20,
-      "price": 70
+      "price": 70,
+      "images": "treatment-2",
+      "inCart": 0
     },
     {
       "id": 3,
       "name": "Peeling odłamkami płyty CD",
-      "area": "face",
+      "tag": "Peeling",
+      "area": "twarz",
       "time": 15,
-      "price": 50
+      "price": 50,
+      "images": "treatment-3",
+      "inCart": 0
     },
     {
       "id": 4,
-      "name": "Pedicure woskiem z USB",
-      "area": "legs",
+      "name": "Pedicure  woskiem z USB",
+      "tag": "Pedicure",
+      "area": "stopy",
       "time": 25,
-      "price": 100
+      "price": 100,
+      "images": "treatment-4",
+      "inCart": 0
     },
     {
       "id": 5,
       "name": "Manicure analogowo-cyfrowy",
-      "area": "hands",
+      "tag": "Manicure",
+      "area": "dłonie",
       "time": 45,
-      "price": 150
+      "price": 150,
+      "images": "treatment-5",
+      "inCart": 0
     },
     {
       "id": 6,
       "name": "Kąpiel w gorącej kawie",
-      "area": "body",
+      "tag": "Kąpiel",
+      "area": "ciało",
       "time": 60,
-      "price": 200
+      "price": 200,
+      "images": "treatment-6",
+      "inCart": 0
     },
     {
       "id": 7,
       "name": "Depilacja dyskiem twardym",
-      "area": "body",
+      "tag": "Depilacja",
+      "area": "ciało",
       "time": 45,
-      "price": 120
+      "price": 120,
+      "images": "treatment-7",
+      "inCart": 0
     }
   ]
 }
- 

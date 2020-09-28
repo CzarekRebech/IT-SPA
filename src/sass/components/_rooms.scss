@@ -1,0 +1,47 @@
+@import "../base/variables";
+.rooms-passion {
+    position: relative;
+    height: 350px;
+    background-image: url('../images/Rooms1.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* -------------- */
+
+// <img src="./images/Rooms1.jpg" alt"" class="card-img-top"
+
+.rooms-1 {
+    height: 250px;
+    background-image: url('../images/Room-1per.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.rooms-2 {
+    height: 250px;
+    background-image: url('../images/Room-2per.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.rooms-3 {
+    height: 250px;
+    background-image: url('../images/Room-3per.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.rooms-4 {
+    height: 250px;
+    background-image: url('../images/Room-4per.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.list-group-item {
+    border: none;
+}

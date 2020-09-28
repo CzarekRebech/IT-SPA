@@ -1,0 +1,31 @@
+@import "../base/variables";
+
+nav {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    font-size: 1.7rem;
+}
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.cart-icon {
+    height: 2rem;
+    position: absolute;
+    margin-top: -0.5rem;
+    margin-left: 0rem;
+}
+
+.cart-item {
+    position: absolute;
+    margin-left: 2.6rem;
+    margin-top: 0rem;
+    color: #007bff;
+}

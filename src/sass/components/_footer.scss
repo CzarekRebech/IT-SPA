@@ -1,0 +1,31 @@
+@import "../base/variables";
+
+$foot-bg-color: #e6e4e4;
+
+.footer {
+  background-color: $foot-bg-color;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer-brand {
+  font-family: 'Righteous', cursive;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.Newsletter {
+  font-size: 1.4rem;
+}
+
+.info {
+  font-size: 1rem;
+}
